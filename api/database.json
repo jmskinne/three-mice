@@ -1,0 +1,78 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Dell",
+            "year": 2020
+        },
+        {
+            "id": 3,
+            "model": "Macbook Air",
+            "year": 2019
+        },
+        {
+            "id": 4,
+            "model": "Lenovo",
+            "year": 2018
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 33,
+            "computerId": 1,
+            "departmentId": 2
+        },
+        {
+            "id": 2,
+            "firstName": "Bob",
+            "lastName": "Johnson",
+            "age": 50,
+            "computerId": 3,
+            "departmentId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "George",
+            "lastName": "Washington",
+            "age": 45,
+            "computerId": 2,
+            "departmentId": 4
+        },
+        {
+            "id": 4,
+            "firstName": "Alex",
+            "lastName": "Ham",
+            "age": 21,
+            "computerId": 4,
+            "departmentId": 3
+        }
+    ],
+    "departments" : [
+        {
+            "id": 1,
+            "name": "Accounting"
+        },
+        {
+            "id": 2,
+            "name": "Claims"
+        },
+        {
+            "id": 3,
+            "name": "Customer Service"
+        },
+        {
+            "id": 4,
+            "name": "Engineering"
+        }
+    ]
+    
+}
+
