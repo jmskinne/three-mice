@@ -28,7 +28,8 @@
             "lastName": "Ittycheriah",
             "age": 33,
             "computerId": 1,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId" : 1
         },
         {
             "id": 2,
@@ -36,7 +37,8 @@
             "lastName": "Johnson",
             "age": 50,
             "computerId": 3,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId" : 3
         },
         {
             "id": 3,
@@ -44,7 +46,8 @@
             "lastName": "Washington",
             "age": 45,
             "computerId": 2,
-            "departmentId": 4
+            "departmentId": 4,
+            "locationId" : 1
         },
         {
             "id": 4,
@@ -52,7 +55,8 @@
             "lastName": "Ham",
             "age": 21,
             "computerId": 4,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId" : 2
         }
     ],
     "departments" : [
@@ -71,6 +75,20 @@
         {
             "id": 4,
             "name": "Engineering"
+        }
+    ],
+    "locations" : [
+        {
+            "id" : 1,
+            "cityName" : "Nashville"
+        },
+        {
+            "id" : 2,
+            "cityName" : "Atlanta"
+        },
+        {
+            "id" : 3,
+            "cityName" : "Memphis"
         }
     ]
     
