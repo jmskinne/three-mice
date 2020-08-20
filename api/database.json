@@ -90,6 +90,75 @@
             "id" : 3,
             "cityName" : "Memphis"
         }
+    ],
+    "customers" : [
+        {
+            "id": 1,
+            "name":"Samsonite"
+            
+        },
+        {
+            "id": 2,
+            "name":"Pied Piper"
+            
+        },
+        {
+            "id": 3,
+            "name":"Hooli"
+            
+        },
+        {
+            "id": 4,
+            "name":"Google"
+            
+        }
+    ],
+    "employeeCustomers" : [
+        {
+            "id": 1,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 3,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 3,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 1,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 1,
+            "employeeId": 1
+        }
     ]
     
 }
